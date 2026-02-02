@@ -61,11 +61,11 @@ describe('Number Processor Functions', () => {
     describe('findAverage', () => {
         test('finds average from positive numbers', () => {
             const numbers = "1\n9\n3\n6"
-            expect(findAverage(numbers)).toBe(5.25);
+            expect(findAverage(numbers)).toBe(4.75);
         });
         test('finds average from negative numbers', () => {
             const numbers = "-1\n-9\n-3\n-6"
-            expect(findAverage(numbers)).toBe(-5.25);
+            expect(findAverage(numbers)).toBe(-4.75);
         });
         test('finds average from null', () => {
             const numbers = ""
