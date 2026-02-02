@@ -34,3 +34,10 @@ function findAverage(numbers) {
     let average = sum / numbers.length;
     return average;
 }
+
+module.exports = {
+    findMax,
+    findMin,
+    findSum,
+    findAverage
+}
